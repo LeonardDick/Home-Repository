@@ -169,6 +169,7 @@ if tube==1:
         disty=(np.cos(np.deg2rad(0))*diameter/2-np.cos(np.deg2rad(step/2))*diameter/2)
         zstep=(carbon_distance**2-distx**2-disty**2)**0.5
         print('--> Zstep in tube: %0.6f'%(zstep))  
+        tubel_z=carbon_distance+zstep
         while True:
             if tubel_z >= tubelength:
                 break
