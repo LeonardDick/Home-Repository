@@ -1,0 +1,3 @@
+! PBEh-3c grid5 TightSCF TightOpt Opt pal8
+
+*xyzfile 1 1 input.xyz
